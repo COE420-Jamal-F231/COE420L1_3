@@ -3,8 +3,14 @@
 
 #include <iostream>
 using namespace std;
+
+void featureB() {
+    cout << "This is feature B method" << endl;
+}
+
 int main()
 {
     cout << "Hello World!\n";
+    featureB();
 }
 
